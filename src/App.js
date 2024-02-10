@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   const [yesSize, setYesSize] = useState(30);
   const [noSize, setNoSize] = useState(30);
-  const [yesPosition, setYesPosition] = useState({ x: 50, y: 50 });
   const [noPosition, setNoPosition] = useState({ x: 200, y: 50 });
   const [yesText, setYesText] = useState("Yes");
 
