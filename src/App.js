@@ -28,7 +28,7 @@ function App() {
           Be my valentine :3?
         </p>
         <div className="button-container">
-          <button className="yes-button" style={{ fontSize: yesSize, position: 'absolute', left: yesPosition.x, top: yesPosition.y }} onClick={increaseYesSize}>
+          <button className="yes-button" style={{ fontSize: yesSize, position: 'absolute' }} onClick={increaseYesSize}>
             {yesText}
           </button>
           <button className="no-button" style={{ fontSize: noSize, position: 'absolute', left: noPosition.x, top: noPosition.y }} onClick={moveNoButton}>
