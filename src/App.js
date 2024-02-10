@@ -16,7 +16,7 @@ function App() {
   const moveNoButton = () => {
     const newX = Math.random() * (window.innerWidth - 200);
     const newY = Math.random() * (window.innerHeight - 50);
-    setNoPosition({ x: newX, y: newY });
+    setNoPosition({ xy: newX, y: newY });
     setYesSize(yesSize + 5); 
   };
 
